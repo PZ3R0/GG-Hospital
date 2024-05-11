@@ -363,36 +363,32 @@ button {
 }
 
 #fac {
-  margin-top: 80px;
-  margin-left: 100px;
+  margin-top: 150px;
+  margin-left: 150px;
+  display: inline-block;
+  align-items: center;
 }
-#fac-img {
+
+.arrow1 {
   display: flex;
+  justify-content: flex-end;
+  padding-left: 78%;
+  margin-top: -20px;
 }
-.f-img {
-  padding: 30px;
-  width: 25%;
-  height: 25%;
-}
-#f-head {
-  padding-left: 100px;
-  margin-top: -50px;
-  display: flex;
-  padding-bottom: 10px;
-}
+
 .f-head {
-  padding: 30px;
-  width: 25%;
-  margin-left: 390px;
-}
-#fac-desc {
-  font-size: small;
   display: flex;
+  justify-content: center;
+  font-size: 1.8em;
 }
+
 #int {
-  margin-top: 10px;
-  margin-left: 100px;
+  margin-top: 30px;
+  margin-left: 150px;
+  display: inline-block;
+  align-items: center;
 }
+
 #int-img {
   display: flex;
 }
@@ -405,24 +401,12 @@ button {
   margin-top: -50px;
   display: flex;
 }
-#i-head {
-  padding-left: 100px;
-  margin-top: -50px;
+.i-head  {
   display: flex;
-  padding-bottom: 10px;
-}
-#i-head {
-  padding-left: 100px;
-  margin-top: -50px;
-  display: flex;
-  padding-bottom: 10px;
+  justify-content: center;
+  font-size: 1.8em;
 }
 
-.i-head {
-  padding: 30px;
-  width: 25%;
-  margin-left: 390px;
-}
 #int-desc {
   font-size: small;
   display: flex;
@@ -431,6 +415,7 @@ button {
   margin-top: -30px;
   padding: 10px;
   margin-left: 20px;
+  margin-right: 53px;
 }
 
 .i-read {
