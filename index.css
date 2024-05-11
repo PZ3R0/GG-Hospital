@@ -422,13 +422,12 @@ button {
   color: rgb(33, 189, 137);
 }
 
-/*
+
 #sub {
   background-color: rgb(218, 233, 246);
-  margin-left: -100px;
-  margin-right: 0px;
   margin-top: -200px;
   height: 600px;
+  align-items: center;
 }
 #sub-b {
   position: relative;
@@ -436,8 +435,8 @@ button {
   height: 200px;
   margin-top: 350px;
   margin-bottom: 100px;
-  margin-left: 220px;
-  width: 1000px;
+  margin-left: 150px;
+  width: 80%;
   height: 170px;
   z-index: 1;
   position: absolute;
@@ -447,29 +446,31 @@ button {
   padding-top: 400px;
   z-index: 3;
   position: relative;
-  font-size: medium;
+  font-size: 1.5em;
 }
 #sub-p {
   z-index: 3;
   position: relative;
-  padding-left: 55%;
-  margin-top: -35px;
+  padding-left: 66%;
+  margin-top: -30px;
 }
 #sub-button {
   z-index: 3;
   position: relative;
-  margin-top: -60px;
-  padding-left: 70%;
+  margin-top: -30px;
+  padding-left: 76%;
   font-size: smaller;
 }
 #sub-hr {
   z-index: 3;
   position: relative;
-  margin-left: 545px;
+  margin-left: 700px;
 }
 #hr {
   width: 51%;
 }
+
+/*
 #foot
 {
   background-color: white;
