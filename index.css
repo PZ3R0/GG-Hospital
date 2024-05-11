@@ -457,28 +457,34 @@ button {
 #sub-button {
   z-index: 3;
   position: relative;
-  margin-top: -30px;
+  margin-top: -36px;
   padding-left: 76%;
   font-size: smaller;
 }
 #sub-hr {
   z-index: 3;
+  width: 700px;
   position: relative;
-  margin-left: 700px;
-}
-#hr {
-  width: 51%;
 }
 
-/*
+#sub hr {
+  position: relative;
+  z-index: 30;
+  margin-left: 600px;
+  margin-right: 252px;
+  margin-top:6px;
+}
+
 #foot
 {
   background-color: white;
+  padding-left: 150px;
+  padding-right: 150px;
 }
+
 #up-foot
-{
-display: flex;
-justify-content: space-evenly;
+{display: flex;
+justify-content: space-between;
 margin-top: 20px;
 }
 #up1
@@ -581,4 +587,4 @@ margin-top: 20px;
   font-size: medium;
   margin-top: 10px;
   padding-left: 20PX;
-} */
+}
