@@ -533,7 +533,8 @@ margin-top: 20px;
 }
  
 #foot-hr{
-  width: 85%;
+  width: 100%;
+  margin: 20px;
 }
 #down-foot
 {
